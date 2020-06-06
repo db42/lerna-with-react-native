@@ -7,7 +7,8 @@
 const path = require('path');
 
 const watchFolders = [
-  path.resolve(__dirname + '/..')
+  path.resolve(__dirname + '/..'), //Relative path to packages directory
+  path.resolve(__dirname + '/../../node_modules') //Relative path to packages directory
 ];
 
 module.exports = {
