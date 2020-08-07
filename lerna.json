@@ -2,5 +2,8 @@
   "packages": [
     "packages/*"
   ],
+  "nohoist": [
+    "@types/*"
+  ],
   "version": "0.0.0"
 }
